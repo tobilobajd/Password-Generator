@@ -8,7 +8,19 @@
 	</head>
 	<body>
 		<div class="container">
-			<h1>Generate a Random Password</h1>
+			<h1>Generate a <br /><span>Random Password</span></h1>
+
+			<div class="display">
+				<input type="text" id="password" placeholder="Password" />
+
+				<img src="images/copy.png" alt="Copy" onclick="copyPassword()" />
+			</div>
+
+			<button onclick="createPassword()">
+				<img src="images/generate.png" alt="Generate" />Generate Password
+			</button>
 		</div>
+
+		<script src="script.js"></script>
 	</body>
 </html>
